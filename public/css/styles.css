@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'American Typewriter Regular';
+    src: url('../font/AmericanTypewriterRegular/AmericanTypewriterRegular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'arlrdbd';
+    src: url('../font/arlrdbd.ttf')  format('truetype');
+}
+
+.title-arlrdbd{
+    font-family: 'arlrdbd';
+}
+
+.formulario-invitacio{
+    background-color: white;
+}
+
+.theme-color{
+    color: #3192bc;
+    font-family: 'American Typewriter Regular';
+}
