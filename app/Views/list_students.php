@@ -8,7 +8,7 @@
             
             <div class="text-center">
                 <br>
-                <h2>Lista de invitados</h2>
+                <h2>Lista de invitados: <?= $numero_personas?></h2>
                 <br>
             </div>
 
@@ -20,7 +20,7 @@
                         <th scope="col">Nombre</th>
                         <th scope="col">Tutor</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Celular</th>                        
+                        <th scope="col">Número de Personas</th>                        
                         <!--th scope="col">Domicilio</th>
                         <th scope="col">Referencias</th-->
                         </tr>
@@ -33,7 +33,7 @@
                             <td><?= $row['nombre'] ?></td>
                             <td><?= $row['nombre_tutor']?></td>
                             <td><?= $row['email']?></td>
-                            <td><?= $row['celular']?></td>
+                            <td><?= $row['numero_personas']?></td>
                             <!--td><?= $row['domicilio']?></td>
                             <td><?= $row['referencia']?></td-->
                         </tr>

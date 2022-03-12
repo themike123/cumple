@@ -19,6 +19,10 @@ class Invitacion extends Migration
 					'type'           => 'VARCHAR',
 					'constraint'     => 100,					
 			],
+			'numero_personas'       => [
+				'type'           => 'INT',
+				'constraint'     => 5,
+			],
 			'nombre_tutor'      => [
 					'type'           =>'VARCHAR',
 					'constraint'     => 100,					

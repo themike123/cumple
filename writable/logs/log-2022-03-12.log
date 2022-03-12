@@ -1,0 +1,78 @@
+CRITICAL - 2022-03-12 17:41:21 --> Array to string conversion
+#0 /home/miguel/Escritorio/cumple/app/Controllers/Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(936): App\Controllers\Home->store()
+#2 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#6 {main}
+ERROR - 2022-03-12 17:42:02 --> mysqli_sql_exception: Column 'nombre' cannot be null in /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/miguel/Escritorio/cumple/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /home/miguel/Escritorio/cumple/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/miguel/Escritorio/cumple/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /home/miguel/Escritorio/cumple/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /home/miguel/Escritorio/cumple/app/Controllers/Home.php(50): CodeIgniter\Model->insert()
+#8 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(936): App\Controllers\Home->store()
+#9 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#13 {main}
+CRITICAL - 2022-03-12 17:42:02 --> Column 'nombre' cannot be null
+#0 /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/miguel/Escritorio/cumple/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /home/miguel/Escritorio/cumple/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/miguel/Escritorio/cumple/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /home/miguel/Escritorio/cumple/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /home/miguel/Escritorio/cumple/app/Controllers/Home.php(50): CodeIgniter\Model->insert()
+#8 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(936): App\Controllers\Home->store()
+#9 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#13 {main}
+CRITICAL - 2022-03-12 17:50:04 --> syntax error, unexpected '}'
+#0 /home/miguel/Escritorio/cumple/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute()
+#1 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle()
+#2 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#6 {main}
+ERROR - 2022-03-12 17:51:42 --> mysqli_sql_exception: Column 'nombre' cannot be null in /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/miguel/Escritorio/cumple/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /home/miguel/Escritorio/cumple/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/miguel/Escritorio/cumple/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /home/miguel/Escritorio/cumple/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /home/miguel/Escritorio/cumple/app/Controllers/Home.php(50): CodeIgniter\Model->insert()
+#8 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(936): App\Controllers\Home->store()
+#9 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#13 {main}
+CRITICAL - 2022-03-12 17:51:42 --> Column 'nombre' cannot be null
+#0 /home/miguel/Escritorio/cumple/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/miguel/Escritorio/cumple/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/miguel/Escritorio/cumple/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query()
+#4 /home/miguel/Escritorio/cumple/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/miguel/Escritorio/cumple/system/BaseModel.php(758): CodeIgniter\Model->doInsert()
+#6 /home/miguel/Escritorio/cumple/system/Model.php(705): CodeIgniter\BaseModel->insert()
+#7 /home/miguel/Escritorio/cumple/app/Controllers/Home.php(50): CodeIgniter\Model->insert()
+#8 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(936): App\Controllers\Home->store()
+#9 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /home/miguel/Escritorio/cumple/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/miguel/Escritorio/cumple/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 /home/miguel/Escritorio/cumple/system/Commands/Server/rewrite.php(45): require_once('/home/miguel/Es...')
+#13 {main}

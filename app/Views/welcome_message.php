@@ -23,7 +23,7 @@
 
             <div>
             <div class="form-group">
-              <input class="form-control" name="nombre_estudiante" placeholder="Nombrel del Invitado">
+              <input class="form-control" name="nombre_estudiante" placeholder="Nombrel" required>
             </div>
 
             <div class="form-group">
@@ -31,12 +31,24 @@
             </div>
 
             <div class="form-group">
-              <input class="form-control" name="email" placeholder="Email">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
             </div>
 
             <div class="form-group">
-              <input class="form-control" name="celular" placeholder="Número celular">
+            <label for="person">Número de Personas</label>
+              <select class="form-select" id="person" name="numero_personas" aria-label="Default select example" name="">
+                <option value="2" selected>Dos</option>
+                <option value="3">Tres</option>
+                <option value="4">Cuatro</option>
+                <option value="5">Cinco</option>
+                <option value="6">Seis</option>
+                <option value="7">Siete</option>
+                <option value="8">Ocho</option>
+                <option value="9">Nueve</option>
+                <option value="10">Diez</option>
+              </select>
             </div>
+
             </div>
             <br>
             <h2 class="theme-color">¡NO FALTES!</h2>

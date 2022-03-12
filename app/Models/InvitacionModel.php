@@ -12,6 +12,6 @@ class InvitacionModel extends Model {
     protected $useAutoIncrement = true;
 
 
-    protected $allowedFields = ['id','nombre', 'nombre_tutor','email','celular','telefono','domicilio', 'referencia'];
+    protected $allowedFields = ['id','nombre', 'numero_personas', 'nombre_tutor','email','celular','telefono','domicilio', 'referencia'];
 
 }
